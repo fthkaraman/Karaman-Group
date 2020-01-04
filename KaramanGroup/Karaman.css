@@ -1,0 +1,406 @@
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(giris.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+/*Linklerin durumları ile alakalı kısım*/
+a:link {text-decoration: none;}
+a:visited {text-decoration: none; color: white;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+.logo
+{
+	position: absolute;
+	left: 35%;
+	top: 20%;
+	box-shadow: 3px 3px 4px white;
+}
+
+.pre
+{
+	position: absolute;
+	font-family: "Verdana";
+	left: 47.5%;
+	top: 28%;
+	color: white;
+}
+
+.volvo
+{
+	position: absolute;
+	left: 10%;
+	top: 45%;
+	text-decoration-line: none;
+}
+
+.nameVolvo
+{
+	position: absolute;
+	font-family: "Verdana";
+	color: white;
+	left: 15.6%;
+	top: 68%;
+}
+
+.porsche
+{
+	position: absolute;
+	left: 35%;
+	top: 45%;
+}
+
+.namePorsche
+{
+	position: absolute;
+	font-family: "Verdana";
+	color: white;
+	left: 37.5%;
+	top: 68%;
+}
+
+.mercedes
+{
+	position: absolute;
+	left: 54%;
+	top: 45%;
+	text-decoration-line: none;
+}
+
+.nameMercedes
+{
+	position: absolute;
+	font-family: "Verdana";
+	color: white;
+	left: 57.5%;
+	top: 68%;
+}
+
+.bmw
+{
+	position: absolute;
+	left: 77.5%;
+	top: 45%;
+}
+
+.nameBMW
+{
+	position: absolute;
+	font-family: "Verdana";
+	color: white;
+	left: 81.6%;
+	top: 68%;
+}
+
+.arrow
+{
+	position: absolute;
+	text-align: center;
+	font-family: "Verdana";
+	left: 41%;
+	bottom: 15%;
+}
+
+.about
+{
+	position: absolute;
+	text-align: center;
+	left: 44%;
+	bottom: 0%;
+}
+
+.s90
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 10%;
+}
+
+.xc90
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 40%;
+}
+
+.xc90page
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 10%;
+}
+
+.xc40
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 71%;
+}
+
+.xc40page
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 10%;
+}
+
+.panamera
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 27%;
+	left: 20%;
+}
+
+.panamerapage
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 15%;
+}
+
+.cayenne
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 27%;
+	left: 60%;
+}
+
+.cayennepage
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 15%;
+}
+
+.a200
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 24%;
+	left: 10%;
+}
+
+.sclass
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 40%;
+}
+
+.sclasspage
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 10%;
+}
+
+.gclass
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 71%;
+}
+
+.gclasspage
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 32%;
+	left: 10%;
+}
+
+.d520
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 25%;
+	left: 20%;
+}
+
+.d520page
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 15%;
+}
+
+.x5
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 30%;
+	left: 60%;
+}
+
+.x5page
+{
+	position: absolute;
+	font-family: "Verdana";
+	bottom: 33%;
+	left: 15%;
+}
+
+table
+{
+	position: absolute;
+	right: 20%;
+	bottom: 30%;
+	background: linear-gradient(to right,dimgray,silver);
+	box-shadow: 3px 3px 4px white;
+}
+
+.info
+{
+	position: absolute;
+	right: 38%;
+	bottom: 59%;
+}
+
+.fiyat
+{
+	position: absolute;
+	font-family: "Verdana";
+	font-size: 25px;
+	color: white;
+	box-shadow: 3px 3px 4px white;
+	left: 24%;
+	bottom: 25%;
+}
+
+form
+{
+	position: absolute;
+	width: 270px;
+	bottom: 10%;
+	left: 42.5%;
+	background-color: slategray;
+	margin: 0 auto 60px;
+	padding: 30px;
+	text-align: center;
+}
+
+form input
+{
+	background-color: white;
+	width: 90%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 15px;
+}
+
+form select
+{
+	background-color: white;
+	width: 99%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 15px;
+}
+
+form button
+{
+	background-color: solid blue;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 15px;
+}
+
+form button:hover,.form button:active{background-color: silver;}
+
+.information
+{
+	position: absolute;
+	top: 40%;
+	left: 36%;
+
+}
+
+#satinal
+{
+	position: absolute;
+	left: 43%;
+	bottom: 15%;
+	width: 120px;
+	height: 30px;
+	font-size: 15px;
+	font-family: "Verdana";
+	border-radius:  5px/5px;
+	border: 5px solid gray;
+}
+
+#bilgi
+{
+	position: absolute;
+	left: 53%;
+	bottom: 15%;
+	width: 140px;
+	height: 31px;
+	font-size: 15px;
+	font-family: "Verdana";
+	border-radius:  5px/5px;
+	border: 5px solid gray;
+}
+
+.trailer
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	z-index: -100;
+}
+
+#volvoVideo
+{
+	position: absolute;
+	-o-filter: blur(3px);
+    filter: blur(3px);
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+#porscheVideo
+{
+	position: absolute;
+	-o-filter: blur(3px);
+    filter: blur(3px);
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+#mercedesVideo
+{
+	position: absolute;
+	-o-filter: blur(3px);
+    filter: blur(3px);
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
